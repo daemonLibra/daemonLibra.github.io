@@ -1,3 +1,18 @@
+const ex1 = document.getElementById('option1');
+const ex2 = document.getElementById('option2');
+
+ex1.onclick = handler_ger;
+ex2.onclick = handler_se;
+
+function handler_ger() {
+    loadTitles_ger();
+    loadLeads_ger();
+}
+
+function handler_se() {
+    loadTitles_se();
+    loadLeads_se();
+}
 
 function loadTitles_ger() {
     document.getElementById('title_head').innerHTML ="Meine Bewerbung für die Universität Karlstad";
