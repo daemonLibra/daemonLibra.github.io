@@ -64,11 +64,11 @@ function loadLeads_se() {
     document.getElementById('lead_Int').innerHTML="När jag hörde att DHBW hade en partner i Karlstad fick det mig att minnas att jag med familjen lekte i Mariebergsskogen och att vi besökte Mårbacka. Då jag till hälften är svensk och talar svenska med min mamma stod det klart att jag inte skulle försumma chansen att ansöka om ett utlandsuppehåll. Jag menar att Sverige (Värmland) erbjuder en optimal möjlighet att nå mina mål. Varför? Därför att det tvivels utan är en global hotspot för teknologi och genom att jag programmerar mjukvara till skatterådgivarprogram för världsledaren Wolters Kluwer. Dessutom kan jag förbättra mina språkkunskaper i svenska och därmed understödja koncernen Wollters KLuwer i det svensk-tyska sammarbetet";
 }
 
-//loadTitles_ger();
-//loadLeads_ger();
+loadTitles_ger();
+loadLeads_ger();
 
-loadTitles_se();
-loadLeads_se();
+//loadTitles_se();
+//loadLeads_se();
 
 const urlImg_1 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/MariebergsSkogen50.JPG/1920px-MariebergsSkogen50.JPG';
 const urlImg_2 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Selma_Lagerlofs_Marbacka_at_Sunne.jpg/1920px-Selma_Lagerlofs_Marbacka_at_Sunne.jpg';
