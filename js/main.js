@@ -37,16 +37,16 @@ function loadLeads_ger() {
 
 
     document.getElementById('lead_Int').innerHTML="Als ich hörte das die DHBW eine Partner Uni in Karlstad hat erinnerte ich mich gerne zurück, dass ich mit der Familie in Mariebergsskogen gespielt habe und wir Mårbacka besuchten.\n" +
-        "        Da ich zur Hälfte Schwede bin und täglich mit meiner Mutter schwedisch sprechen, wusste ich, dass ich mir die Chance nicht entgehen lassen sollte mich für den Auslandsaufenthalt zu\n" +
+        "        Da ich zur Hälfte Schwede bin und täglich mit meiner Mutter schwedisch spreche, wusste ich, dass ich mir die Chance nicht entgehen lassen sollte mich für den Auslandsaufenthalt zu\n" +
         "        bewerben.\n" +
-        "        Ich denke das Schweden (Värmland) die ideale Möglichkeit ist, um meine Ziel zu erreichen. Warum? Weil es zweifellos ein globaler Hotspot für Technologie ist und ich bei dem Weltmarktführer Wolters kluwer Software für Steuerberater programmiere. Zusätzlich darf ich meine Schwedischkenntnisse verbessern und kann damit im Konzern wolters kluwer die deutsch- schwedisch Kooperation unterstützen.\n";
+        "        Ich denke das Schweden (Värmland) die ideale Möglichkeit ist, um meine Ziele zu erreichen. Warum? Weil es zweifellos ein globaler Hotspot für Technologie ist und ich bei dem Weltmarktführer Wolters Kluwer Software für Steuerberater programmiere. Zusätzlich darf ich meine Schwedischkenntnisse verbessern und kann damit im Konzern Wolters Kluwer die deutsch-schwedisch Kooperation unterstützen.\n";
 
 }
 
 function loadTitles_se() {
     document.getElementById('title_head').innerHTML ="Min ansökan till Karlstads universitet";
 
-    document.getElementById('title_It').innerHTML ="Informatik/datavetenskap ";
+    document.getElementById('title_It').innerHTML ="Informatik/datavetenskap";
 
     document.getElementById('title_Wi').innerHTML ="ekonomi";
 
