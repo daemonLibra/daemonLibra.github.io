@@ -30,8 +30,15 @@ const searchStates = searchText =>
     // Get matches to current text input
     let matches = summoners.entries.filter(summoner =>
     {
-        const regex = new RegExp(`^${searchText}`);
-        return summoner.summonerName.match(regex);
+        const regex = new RegExp(`^[0-9\\p{L} _\\.]+$`);
+        if (searchText.match(regex))
+        {
+            return summoner.summonerName.match(regex);
+        } else
+            {
+                return "No summoner found";
+            }
+
     });
 
     // Clear when input or matches are empty
